@@ -131,12 +131,12 @@ export default function Component() {
                     className="aspect-video mb-8"
                   >
                     <Image
-  alt="Miyamoto Musashi"
-  src="/images/miyamotohome.jpg"
-  width={600}
-  height={400}
-  className="rounded-lg object-cover w-full h-full"
-/>
+                      alt="Miyamoto Musashi"
+                      src="/miyamotohome.jpg"
+                      width={600}
+                      height={400}
+                      className="rounded-lg object-cover w-full h-full"
+                    />
 
                   </motion.div>
                   <motion.p

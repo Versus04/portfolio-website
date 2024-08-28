@@ -140,12 +140,13 @@ export default function Component() {
 
                   </motion.div>
                   <motion.p
-                    initial={{ y: 20, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 0.5 }}
-                    className="text-gray-600"
-                  >Crafting elegant Android applications with the precision of a samurai'&apos;'s blade and the simplicity of Zen philosophy.
-                  </motion.p>
+  initial={{ y: 20, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ delay: 0.5, duration: 0.5 }}
+  className="text-gray-600"
+>
+  Crafting elegant Android applications with the precision of a samurai&apos;s blade and the simplicity of Zen philosophy.
+</motion.p>
                 </div>
               </TabsContent>
               <TabsContent value="projects">

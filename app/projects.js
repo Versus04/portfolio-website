@@ -12,7 +12,7 @@ const projects = [
       "Efficient state management with Kotlin Flows",
     ],
     technologies: ["Kotlin", "Jetpack Compose", "Gemini SDK", "Coroutines", "Material Design"],
-    github: "#",
+    github: "https://github.com/Versus04/ChatBot",
     liveDemo: "#",
   },
   {
@@ -26,8 +26,22 @@ const projects = [
       "Clean Architecture for scalability and maintainability",
     ],
     technologies: ["Kotlin", "Jetpack Compose", "Retrofit", "Room", "ExoPlayer", "Clean Architecture"],
-    github: "#",
+    github: "https://github.com/Versus04/musify",
     liveDemo: "#",
+  },
+  {
+    title: "Weather Application",
+    description: "Real-time weather updates with a minimal and sleek UI developed using Jetpack Compose",
+    image: "/placeholder.svg?height=200&width=300",
+    features: [
+      "Real-Time Weather Updates using free weather API",
+      "MVVM Architecture for separation of concerns",
+      "Responsive and adaptive UI with Jetpack Compose",
+      "Efficient network calls with Retrofit",
+    ],
+    technologies: ["Kotlin", "Jetpack Compose", "MVVM", "Retrofit"],
+    github: "https://github.com/Versus04/Weather-App", // Replace with your actual GitHub repo URL
+    liveDemo: "#", // Replace with your demo link if available, or remove if not applicable
   },
 ]
 

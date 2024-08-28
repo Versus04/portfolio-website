@@ -5,7 +5,7 @@ const projects = [
   {
     title: "ChatBot Application",
     description: "AI-powered conversational assistant using Gemini AI",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/chatbot.png",
     features: [
       "Real-Time AI Interactions using Gemini SDK",
       "Intuitive UI with Jetpack Compose and Material Theming",
@@ -40,8 +40,8 @@ const projects = [
       "Efficient network calls with Retrofit",
     ],
     technologies: ["Kotlin", "Jetpack Compose", "MVVM", "Retrofit"],
-    github: "https://github.com/Versus04/Weather-App", // Replace with your actual GitHub repo URL
-    liveDemo: "#", // Replace with your demo link if available, or remove if not applicable
+    github: "https://github.com/Versus04/Weather-App", 
+    liveDemo: "#", 
   },
 ]
 
@@ -52,13 +52,13 @@ export default function Projects() {
       {projects.map((project, index) => (
         <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="md:flex">
-            <div className="md:flex-shrink-0">
+            <div className="md:flex-shrink-0 w-full md:w-48 h-48 relative">
               <Image
-                className="h-48 w-full object-cover md:w-48"
                 src={project.image}
                 alt={project.title}
-                width={300}
-                height={200}
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-lg md:rounded-l-lg md:rounded-t-none"
               />
             </div>
             <div className="p-8">

@@ -1,27 +1,7 @@
 import { motion } from 'framer-motion'
 
 const blogPosts = [
-  {
-    title: "Mastering Jetpack Compose: A Deep Dive",
-    description: "Explore the intricacies of Jetpack Compose and learn how to create stunning UIs with less code.",
-    date: "2023-05-15",
-    readTime: "10 min read",
-    tags: ["Jetpack Compose", "UI/UX", "Android"],
-  },
-  {
-    title: "Implementing Clean Architecture in Android",
-    description: "A comprehensive guide to implementing Clean Architecture in your Android projects for better scalability and maintainability.",
-    date: "2023-06-22",
-    readTime: "15 min read",
-    tags: ["Clean Architecture", "Android", "Kotlin"],
-  },
-  {
-    title: "Optimizing App Performance with Kotlin Coroutines",
-    description: "Learn how to leverage Kotlin Coroutines to improve your app's performance and responsiveness.",
-    date: "2023-07-10",
-    readTime: "12 min read",
-    tags: ["Kotlin", "Coroutines", "Performance"],
-  },
+  
 ]
 
 export default function Blog() {
@@ -40,8 +20,7 @@ export default function Blog() {
             <h3 className="text-xl font-semibold mb-2">{post.title}</h3>
             <p className="text-gray-600 mb-4">{post.description}</p>
             <div className="flex justify-between items-center text-sm text-gray-500">
-              <span>{post.date}</span>
-              <span>{post.readTime}</span>
+              <p>Nothing to show here</p>
             </div>
             <div className="mt-4 flex flex-wrap gap-2">
               {post.tags.map((tag, tagIndex) => (

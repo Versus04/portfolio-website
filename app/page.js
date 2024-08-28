@@ -179,7 +179,7 @@ export default function Home() {
     </div>
     <p className="mb-2">
    
-    &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+    
     </p>
     <p className="text-sm">
       Crafting elegant Android applications with passion and precision.

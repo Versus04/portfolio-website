@@ -10,7 +10,7 @@ import Projects from './projects'
 import Blog from './blog'
 import { motion, AnimatePresence } from 'framer-motion'
 
-export default function Component() {
+export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeTab, setActiveTab] = useState('home')
 

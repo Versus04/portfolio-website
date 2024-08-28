@@ -145,7 +145,7 @@ export default function Component() {
   transition={{ delay: 0.5, duration: 0.5 }}
   className="text-gray-600"
 >
-  Crafting elegant Android applications with the precision of a samurai&apos;s blade and the simplicity of Zen philosophy.
+  Crafting elegant Android applications with the precision of a samurais blade and the simplicity of Zen philosophy.
 </motion.p>
                 </div>
               </TabsContent>

@@ -1,4 +1,6 @@
 'use client'
+import Image from 'next/image';
+
 import { GithubIcon, LinkedinIcon, TwitterIcon, MailIcon } from 'lucide-react'
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
@@ -122,30 +124,27 @@ export default function Component() {
                     Android Developer | Kotlin Enthusiast | UI/UX Aficionado
                   </motion.p>
                   <motion.div
+
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                     className="aspect-video mb-8"
                   >
-                    <img
-                      alt="Miyamoto Mushashi"
-                      className="rounded-lg object-cover w-full h-full"
-                      height="400"
-                         src="/miyamotohome.jpg?height=400&width=600"
-                      style={{
-                        aspectRatio: "600/400",
-                        objectFit: "cover",
-                      }}
-                      width="600"
-                    />
+                    <Image
+  alt="Miyamoto Musashi"
+  src="/images/miyamotohome.jpg"
+  width={600}
+  height={400}
+  className="rounded-lg object-cover w-full h-full"
+/>
+
                   </motion.div>
                   <motion.p
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
                     className="text-gray-600"
-                  >
-                    Crafting elegant Android applications with the precision of a samurai's blade and the simplicity of Zen philosophy.
+                  >Crafting elegant Android applications with the precision of a samurai'&apos;'s blade and the simplicity of Zen philosophy.
                   </motion.p>
                 </div>
               </TabsContent>

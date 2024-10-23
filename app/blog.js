@@ -18,7 +18,7 @@ Think of it as a fresh approach to building user interfaces. Instead of manually
 
 [... rest of the content ...]`,
     readTime: "8 min read",
-    author: "Your Name"
+    author: "Shubham Bind"
   }
 ]
 

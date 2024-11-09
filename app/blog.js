@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const blogPosts = [
   {
-    title: "Getting Started with Jetpack Compose: A Beginner's Guide",
+    title: "Getting Started with Jetpack Compose : A Beginner's Guide",
     description: "Discover how to build modern Android UIs with Jetpack Compose. This comprehensive guide walks through the basics of declarative UI development, state management, and best practices for creating beautiful Android applications.",
     date: "October 23, 2024",
     tags: ["Android", "Jetpack Compose", "UI Development", "Kotlin", "Mobile Development"],
